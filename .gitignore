@@ -1,0 +1,35 @@
+# ---- Vendored upstream dependency (clone separately; see README) ----
+bolna/
+
+# ---- Secrets ----
+.env
+*.env
+!*.env.sample
+
+# ---- Python ----
+**/.venv/
+**/venv/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ---- Databases / runtime data ----
+*.db
+*.sqlite
+*.sqlite3
+**/agent_data/
+
+# ---- Node / Next.js ----
+**/node_modules/
+**/.next/
+**/out/
+npm-debug.log*
+yarn-error.log*
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
